@@ -1,0 +1,33 @@
+/* 
+Parts of CSS rule
+1. Selector - "what element(s) are styling?"
+2. Property - "what about that element(s) is being styled?"
+3. Value - "how specificlaly are you styling that property?"
+*/
+
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: 
+}
+
+
+.avatar {
+    width: 200px;
+}
+
+.link {
+    margin-top: 20;
+    margin-bottom: 20;
+}
+
+/* border properties need width style and colrl */
+.row{
+    border-bottom: 2px solid black;
+}
+
+.right-border {
+    border-right: 2px solid black;
+}
+th, td{
+    padding: 10px;
+}
