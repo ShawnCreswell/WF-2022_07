@@ -1,0 +1,28 @@
+
+
+
+.black {
+    background-color: black;
+    width: 200px;
+    height: 500px;
+    display: inline-flex;
+    margin:-4px;
+}
+
+.yellow {
+    background-color: yellow;
+    width: 200px;
+    height: 500px;
+    display: inline-flex;
+    margin: -4px;
+    
+}
+
+.red {
+    background-color: red;
+    width: 200px;
+    height: 500px;
+    display: inline-block;
+    margin: -4px;
+}
+
