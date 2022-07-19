@@ -1,0 +1,24 @@
+button {
+    color: rgb(17, 155, 157);
+    background-color: white;
+    border-radius: 30px;
+    border-color: rgb(17, 155, 157);
+    width: 110;
+}
+
+.plus {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.fa-circle-plus{
+    color: cyan;
+}
+
+.create {
+    color: white;
+    background-color: rgb(43, 120, 228);
+    width: 200;
+    border-radius: 0;
+    box-shadow: 3px 3px 3px black;
+}
