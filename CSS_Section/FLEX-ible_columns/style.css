@@ -1,0 +1,40 @@
+*{
+    margin: 5px;
+}
+
+.row {
+    display: flex;
+    
+}
+
+.col {
+    background-color: rgb(102, 162, 172);
+    color: white;
+    width: 1000px;
+    height: 50px;
+    display: flex;
+    flex: 1;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 10px;
+}
+
+.col-2 {
+    background-color: rgb(102, 162, 172);
+    color: white;
+    display: flex;
+    flex: 2;
+    padding: 10px;
+}
+
+
+.col-3 {
+    background-color: rgb(102, 162, 172);
+    color: white;
+    display: flex;
+    width: 1000px;
+    height: 50px;
+    flex: 3;
+    padding: 10px;
+}
+

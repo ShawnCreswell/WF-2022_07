@@ -1,15 +1,19 @@
-
+* {
+    margin: 10px;
+}
 .background {
     background-color: lightgrey;
-    width: 1000px;
-    height: 900px;
-    display: flex;
     justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    display: flex;
+
 }
 
 .git-hub {
     color: black;
     font-size: 50px;
+    align-self: center;
 
 }
 
@@ -17,4 +21,31 @@
     background-color: rgb(85, 199, 242);
     width:600px ;
     height: 200px;
+    display: flex;
+}
+
+.pink {
+    background-color: rgb(209, 166, 170);
+    width:600px ;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    gap: 4em;
+}
+
+.white {
+    background-color: white;
+    width:600px ;
+    height: 200px;
+    display: flex;
+}
+
+.flex {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+img {
+    height: 150px;
 }
