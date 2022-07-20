@@ -1,0 +1,20 @@
+
+.background {
+    background-color: lightgrey;
+    width: 1000px;
+    height: 900px;
+    display: flex;
+    justify-content: center;
+}
+
+.git-hub {
+    color: black;
+    font-size: 50px;
+
+}
+
+.blue {
+    background-color: rgb(85, 199, 242);
+    width:600px ;
+    height: 200px;
+}

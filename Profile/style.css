@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: serif;
+
+}
+
+.header {
+    width: 2000px;
+    height: 5px;
+    display: flex;
+    background-color: black;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 0px;
+    padding: 20px;
+
+}
+
+.profile {
+    color: white;
+    font-size: 25px;
+    display: inline-flex;
+
+}
+
+a {
+    color: white;
+    margin-left: 50px;
+    font-size: 15px;
+    text-decoration: none;
+}
