@@ -1,0 +1,61 @@
+
+.container {
+    display: flex;
+    
+}
+
+.black {
+    background-color: black;
+    width: 200px;
+    height: 200px;
+    display: inline-flex;
+    
+}
+
+.yellow {
+    background-color: yellow;
+    width: 200px; 
+    height: 200px;
+    display: inline-flex;
+    
+    
+}
+
+.red {
+    background-color: red;
+    width: 200px;
+    height: 200px;
+    display: inline-block;
+    
+}
+
+.flex {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+ul{
+    list-style: none;
+    gap: 1em; 
+}
+
+body {
+    margin: 0px;    
+}
+
+nav {
+    background-color: darkgoldenrod;
+    padding: .25em 1em;
+}
+
+main {
+    padding: .25em 1em;
+
+}
+
+.left-col {
+    /* misbehaving child property */
+    align-self: flex-start;
+    border: solid 2px black;
+}

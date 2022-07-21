@@ -1,0 +1,60 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Begin Utility classes */
+.flexed {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1.5rem;
+}
+/* end Utility classes */
+
+header {
+    min-height: 50px;
+    background-color: aqua;
+}
+
+.header-top {
+    min-height: 30px;
+    background-color: yellow;
+
+}
+
+nav {
+    min-height: 20px;
+    background-color: lightgreen;
+}
+
+main {
+    min-height:500px ;
+    width: 1000px;
+    background-color: palevioletred;
+    margin: 0 auto;
+}
+
+.slider {
+    min-height: 300px;
+    background-color: blue;
+
+}
+
+.content {
+    min-height: 200px;
+    background-color: red;
+}
+
+.left-col {
+    min-height: 200px;
+    background-color: orange;
+    flex: 3;
+}
+
+.right-col {
+    min-height: 200px;
+    background-color: greenyellow;
+    flex: 1;
+}
