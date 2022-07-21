@@ -30,6 +30,7 @@
     align-items: center;
     gap: 1rem;
     margin: 1rem 0rem ;
+    
 }
 
 
@@ -108,9 +109,13 @@ a {
 .bottom-bar {
     min-height: 175px;
     background-color: white;
-    padding-left: 1.5rem;
+    padding-left: 2rem;
 }
 
+.pro-pic {
+    position: relative;
+    bottom: 40px;
+}
 
 .education {
     width: 500px;
@@ -128,7 +133,6 @@ a {
 }
 
 .bottom-bar-2 {
-    min-height: 225px;
     background-color: white;
     padding: 1.5rem;
 }
@@ -230,7 +234,8 @@ p {
     width: 100px;
     border-radius: 50%;
     border: 3px solid black;
-    position: relative;
+
+
 }
 
 .icon {

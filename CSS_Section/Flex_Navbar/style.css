@@ -1,29 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
 * {
     margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
 }
-.nav {
-    background-color: rgb(51, 51, 51);
+
+.contianer {
+    width: 70%;
+    margin: 0px  auto;
+
+}
+
+.flex {
     display: flex;
     justify-content: center;
     align-items: flex-start;
-    gap: 25em;
-    padding: 15px;
-
-
-}.nav-title {
-    color: white;
-    font-family: 'roboto', sans-serif;
-    
+    gap: 1em;
 }
-
 
 .nav-links {
     list-style: none;
-    display: flex;
-    align-items: flex-start;
-    justify-content: center;
-    gap: 1em;
     margin: 10px;
+}
+
+.nav {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 1.5em;
+    background-color: rgb(51, 51, 51);
+    color: white;
+    padding: 1em;
 }
 
 a {
@@ -32,10 +40,23 @@ a {
     font-family: 'roboto', sans-serif;
 }
 
-.btn {
+.nav-title {
     color: white;
-    background-color:rgb(22, 162, 184);
     font-family: 'roboto', sans-serif;
-    border-color: black;
-    box-shadow: 4px 4px 4px black;
+    
+}
+
+
+.btn {
+    background-color:rgb(22, 162, 184);
+    border: 2px solid black;
+    color: white;
+    padding: .25em .5em;
+    box-shadow: 4px 4px  black;
+    cursor: pointer;
+    font-family: 'roboto', sans-serif;
+}
+
+body {
+    font-family: 'roboto';
 }
